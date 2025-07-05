@@ -34,9 +34,9 @@ export default function Home() {
     localStorage.setItem("darkMode", JSON.stringify(darkMode))
   }, [darkMode])
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode)
+  // }
 
   const isValidUrl = (string: string) => {
     try {

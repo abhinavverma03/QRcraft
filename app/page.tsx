@@ -16,7 +16,7 @@ export default function Home() {
     try {
       new URL(string)
       return true
-    } catch (_) {
+    } catch (err) {
       return false
     }
   }

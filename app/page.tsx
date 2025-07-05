@@ -3,7 +3,7 @@
 import type React from "react"
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import { Download, Copy, Check, QrCode, Link2, ArrowRight, Zap, Shield, Moon, Sun } from "lucide-react"
+import { Download, Copy, Check, QrCode, Link2, ArrowRight, Zap, Shield } from "lucide-react"
 
 export default function Home() {
   const [url, setUrl] = useState("")
